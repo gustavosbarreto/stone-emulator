@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>stone.png</file>
+    </qresource>
+    <qresource prefix="/qml">
+        <file>main.qml</file>
+        <file>htmlappview.qml</file>
+        <file>app.qml</file>
+    </qresource>
+    <qresource prefix="/html">
+        <file>index.html</file>
+        <file>app.html</file>
+    </qresource>
+</RCC>
