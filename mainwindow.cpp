@@ -45,9 +45,13 @@ void MainWindow::mousePressEvent(QMouseEvent *event)
 
 void MainWindow::mouseMoveEvent(QMouseEvent *event)
 {
+    #ifdef Q_OS_MAC
     const QPoint delta = event->globalPos() - m_mousePressPos;
     move(x() + delta.x(), y() + delta.y());
     m_mousePressPos = event->globalPos();
+    #else
+    move(x(), y());
+    #endif
 }
 
 
