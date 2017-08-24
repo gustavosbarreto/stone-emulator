@@ -8,3 +8,12 @@ demonstrar o que é possível fazer com Qt e QtWebEngine.
 
 ![Alt text](stone.png)
 
+## Instruções pra buildar e testar
+
+```sh
+qmake
+make
+./stone
+```
+
+> **Deverá funcionar no Linux/Mac com Qt >= 5.7**. No windows não faço idéia!
